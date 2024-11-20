@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/domaincrafters/ci_sandbox/compare/v1.0.0...v1.1.0) (2024-11-20)
+
+
+### Features
+
+* better equal support ([2163350](https://github.com/domaincrafters/ci_sandbox/commit/2163350d43452cfbce74311ff101e371e37cb6fc))
+
 # 1.0.0 (2024-11-20)
 
 
