@@ -6,14 +6,10 @@
  */
 
 /**
- * @module DomainCrafters Standard Utilities
- *
- * This module serves as a centralized collection of standard utility functions and types
- * provided by the DomainCrafters library. It re-exports several essential components
- * from the `@domaincrafters/std` package, making them easily accessible for developers.
+ * @module DomainCrafters Release Sandbox
+ * @description This module is a sandbox for the DomainCrafters release process.
  */
 export * from "@domaincrafters/std/Optional.ts";
 export * from "@domaincrafters/std/Guard.ts";
 export * from "@domaincrafters/std/Exception.ts";
 export * from "@domaincrafters/std/UUID.ts";
-export * from "@domaincrafters/std/testing/asserts.ts";
