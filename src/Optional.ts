@@ -75,6 +75,7 @@ export class Optional<T> {
     public constructor(value?: T) {
         this._value = value;
     }
+    
 
     /**
      * Returns an Optional describing the given non-null value.
