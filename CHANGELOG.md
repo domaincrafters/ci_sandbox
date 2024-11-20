@@ -1,3 +1,10 @@
+## [1.1.2](https://github.com/domaincrafters/ci_sandbox/compare/v1.1.1...v1.1.2) (2024-11-20)
+
+
+### Bug Fixes
+
+* support for generics in Optional ([7d780a9](https://github.com/domaincrafters/ci_sandbox/commit/7d780a9eda101ba79781ffdd0a8e057a7aa2db72))
+
 ## [1.1.1](https://github.com/domaincrafters/ci_sandbox/compare/v1.1.0...v1.1.1) (2024-11-20)
 
 
