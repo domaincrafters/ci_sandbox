@@ -1,4 +1,4 @@
-const GITHUB_API_URL = "https://github.com/domaincrafters/ddd_deno_std/releases/latest";
+const GITHUB_API_URL = "https://github.com/domaincrafters/ci_sandbox/releases/latest";
 const DENO_JSON_PATH = "./deno.json";
 
 async function getNewVersionFromGithub(): Promise<string> {
