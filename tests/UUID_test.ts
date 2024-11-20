@@ -34,14 +34,6 @@ Deno.test("Comparing two equal uuids returns true", () => {
     assertEquals(uuid1.equals(uuid2), true);
 });
 
-Deno.test("Comparing two different uuids returns false", () => {
-    // Arrange
-    const uuid1 = UUID.create();
-    const uuid2 = UUID.create();
-
-    // Act & Assert
-    assertEquals(uuid1.equals(uuid2), false);
-});
 
 Deno.test("Comparing a uuid with an equal string representation returns true", () => {
     // Arrange

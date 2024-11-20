@@ -25,6 +25,7 @@ Deno.test("Optional.of() should throw an Error when value is undefined", () => {
     Error,
     "Cannot create Optional.of with undefined or null",
   );
+  
 });
 
 Deno.test("Optional.of() should throw an Error when value is null", () => {
