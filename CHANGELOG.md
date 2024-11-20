@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/domaincrafters/ci_sandbox/compare/v1.1.0...v1.1.1) (2024-11-20)
+
+
+### Bug Fixes
+
+* wrong error handling ([cdf5bbc](https://github.com/domaincrafters/ci_sandbox/commit/cdf5bbc57566eb1d47effc42f428442f432f0865))
+
 # [1.1.0](https://github.com/domaincrafters/ci_sandbox/compare/v1.0.0...v1.1.0) (2024-11-20)
 
 
