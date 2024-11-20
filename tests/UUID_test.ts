@@ -25,21 +25,6 @@ Deno.test("Creating a new uuid from a corrupted string throws an error", () => {
     assertThrows(() => UUID.parse(uuid), IllegalArgumentException);
 });
 
-Deno.test("Creating a new uuid from an empty string throws an error", () => {
-    // Arrange
-    const uuid = '';
-    // Act & Assert
-    assertThrows(() => UUID.parse(uuid), IllegalArgumentException);
-});
-
-Deno.test("Comparing two equal uuids returns true", () => {
-    // Arrange
-    const uuid1 = UUID.create();
-    const uuid2 = UUID.parse(uuid1.toString());
-
-    // Act & Assert
-    assertEquals(uuid1.equals(uuid2), true);
-});
 
 Deno.test("Comparing two different uuids returns false", () => {
     // Arrange

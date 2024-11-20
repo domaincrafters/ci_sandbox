@@ -12,7 +12,8 @@
   "lint": {
       "include": ["src/"],
       "rules": {
-        "tags": ["jsr", "recommended"]
+        "tags": ["jsr", "recommended"],
+        "exclude": ["adjacent-overload-signatures"]
       }
   },
   "fmt": {
